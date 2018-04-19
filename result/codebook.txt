@@ -1,0 +1,55 @@
+tidyexperimentdata.csv
+
+
+Feature Selection 
+=================
+
+The features selected for this database is according to the course. In original data ,there are multiple kind of variables recording the accelerometer data
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+And they are estimated in diffrent signals ,we chose only
+
+mean(): Mean value
+std(): Standard deviation
+
+
+subjet
+================
+
+subject column record the subject number of each record
+
+activity
+===============
+activity indicate what status of the subject is in of the record they include:
+
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+
+
+
+averageby_subject_activity.csv
+
+this csv file count the average value of each column in tidyexperimentdata.csv according to different subject in different activity status
+
+resultreqested.tab is just another format edition of averageby_subject_activity.csv

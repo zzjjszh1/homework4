@@ -24,7 +24,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-And they are estimated in diffrent signals ,we chose only
+**And they are estimated in diffrent signals ,we chose only**
 
 mean(): Mean value
 std(): Standard deviation

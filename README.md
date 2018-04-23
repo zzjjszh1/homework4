@@ -18,10 +18,10 @@
  This file contains all the code needed to generate data set , which includes :
 
    - **tidyexperimentdata.csv:** That's the file combines test and training data together , and subset only the mean and standard deviation for each measurement with appropriate label of each variable. Besides, subject num and activity names are append as a new column also
-   - **averageby_subject_activity.csv:**That's the file independent tidy data set with the average of each variable for each activity and each subject
-   - **resultreqested.tab:**That's another version of the same data with averageby_subject_activity.csv, just as the course requested format
+   - **averageby_subject_activity.csv:** That's the file independent tidy data set with the average of each variable for each activity and each subject
+   - **resultreqested.tab:** That's another version of the same data with averageby_subject_activity.csv, just as the course requested format
 
-  **Notice**:If you want to run the code on your computer, you should contain UCI_HAR_Dataset directory in which original data lies and also remember to create result directory mannally before launch the programm.
+  **Notice** :If you want to run the code on your computer, you should contain UCI_HAR_Dataset directory in which original data lies and also remember to create result directory mannally before launch the programm.
 
 ## Tidy data direcotry
 
